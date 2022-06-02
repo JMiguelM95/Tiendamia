@@ -50,9 +50,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ## Ejecutando las pruebas ⚙️
 
-_Para ejecutar las casos automatizados, debemos de primero ir a la ruta: /YOUR-REPOSITORY/resources/env/test.properties e ingresar la data que queramos utilizar _
-
-![image](https://user-images.githubusercontent.com/79297281/143725359-1c04dc81-79e8-4958-8e78-ddd811011546.png)
+_Para ejecutar las casos automatizados, debemos de primero ir a la ruta: /YOUR-REPOSITORY/resources/env/test.properties e ingresar la data que queramos utilizar_
 
 _Luego solo ejecutaremos el testng.xml para los TestCase de Tiendamia (Con TestNG)_
 
