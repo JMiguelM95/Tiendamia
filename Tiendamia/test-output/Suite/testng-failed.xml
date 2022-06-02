@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://tiendamia.com/"/>
+  <listeners>
+    <listener class-name="driver.IlistenerManager"/>
+  </listeners>
+  <test thread-count="5" name="Test On Firefox(failed)">
+    <parameter name="platform" value="Firefox"/>
+    <classes>
+      <class name="BuyInTiendamia">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="BuyingProductTest"/>
+          <include name="afterTest"/>
+          <include name="AddingProductToCartTest"/>
+        </methods>
+      </class> <!-- BuyInTiendamia -->
+    </classes>
+  </test> <!-- Test On Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

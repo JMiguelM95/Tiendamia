@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-01T19:26:43 CST" name="Suite" finished-at="2022-06-01T19:28:00 CST" duration-ms="77540">
+    <groups>
+    </groups>
+    <test started-at="2022-06-01T19:26:43 CST" name="Test On Firefox" finished-at="2022-06-01T19:28:00 CST" duration-ms="77540">
+      <class name="BuyInTiendamia">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:BuyInTiendamia@6a400542]" started-at="2022-06-01T19:26:43 CST" name="beforeTest" finished-at="2022-06-01T19:26:48 CST" duration-ms="4719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@682abca7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tiendamia.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="SelectCountryTest()[pri:1, instance:BuyInTiendamia@6a400542]" started-at="2022-06-01T19:26:48 CST" name="SelectCountryTest" finished-at="2022-06-01T19:26:51 CST" duration-ms="3649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCountryTest -->
+        <test-method signature="SearchProductTest()[pri:2, instance:BuyInTiendamia@6a400542]" started-at="2022-06-01T19:26:52 CST" name="SearchProductTest" finished-at="2022-06-01T19:27:00 CST" duration-ms="8196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductTest -->
+        <test-method signature="SelectResultTest()[pri:3, instance:BuyInTiendamia@6a400542]" started-at="2022-06-01T19:27:00 CST" name="SelectResultTest" finished-at="2022-06-01T19:27:06 CST" duration-ms="6038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectResultTest -->
+        <test-method signature="AddingProductToCartTest()[pri:4, instance:BuyInTiendamia@6a400542]" started-at="2022-06-01T19:27:06 CST" name="AddingProductToCartTest" finished-at="2022-06-01T19:27:54 CST" duration-ms="47395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingProductToCartTest -->
+        <test-method signature="BuyingProductTest()[pri:0, instance:BuyInTiendamia@6a400542]" started-at="2022-06-01T19:27:54 CST" name="BuyingProductTest" finished-at="2022-06-01T19:27:59 CST" depends-on-methods="BuyInTiendamia.AddingProductToCartTest" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyingProductTest -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:BuyInTiendamia@6a400542]" started-at="2022-06-01T19:27:59 CST" name="afterTest" finished-at="2022-06-01T19:28:00 CST" duration-ms="1674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@682abca7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- BuyInTiendamia -->
+    </test> <!-- Test On Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
