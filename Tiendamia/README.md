@@ -1,6 +1,6 @@
-# Banco Cuscatlan
+# Tiendamia
 
-_El proyecto se basa en la automatización de 2 sitios web en los que en ambos se trata de certificar la calidad de la información mostrada en pantalla._
+_El proyecto se basa en la automatización de 1 sitio web en el que se espera finalizar una compra._
 
 ## Comenzando 🚀
 
@@ -9,7 +9,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 ### Documentacion del Proyecto 📋
 
 ```
-Ingresar a la ruta /YOUR-REPOSITORY/resources/docs/BancoCuscatlan
+Ingresar a la ruta /YOUR-REPOSITORY/resources/docs/
 ```
 
 ### Pre-requisitos 📋
@@ -54,11 +54,11 @@ _Para ejecutar las casos automatizados, debemos de primero ir a la ruta: /YOUR-R
 
 ![image](https://user-images.githubusercontent.com/79297281/143725359-1c04dc81-79e8-4958-8e78-ddd811011546.png)
 
-_Luego solo ejecutaremos el testng.xml para los TestCase de Pokemon o testng2.xml Para los de RocketMortgage (Con TestNG)_
+_Luego solo ejecutaremos el testng.xml para los TestCase de Tiendamia (Con TestNG)_
 
 ### Analice los resultados 🔩
 
-_Estas pruebas automatizadas validan mas que todo la integridad de la data con las API'S proporcionadas_
+_Estas pruebas automatizadas validan que el flujo de compras funcione correctamente_
 
 ```
 Para visualizar el reporte de ExtentReport ir a la siguiente ruta: /YOUR-REPOSITORY/test-output/env/STMExtentReport.html
@@ -67,7 +67,6 @@ Para visualizar el reporte de ExtentReport ir a la siguiente ruta: /YOUR-REPOSIT
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [RestAssured](https://rest-assured.io/) - Para las pruebas de APIS
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
 * [POM](https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html) - El framework para patron de diseño
 * [ExtentReport](https://www.extentreports.com/) - Manejador de reporteria
